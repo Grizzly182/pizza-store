@@ -2,6 +2,7 @@
     "name": "mikhail/pizza_store",
     "description": "Some pizza store inspired by Pizza Hut",
     "type": "library",
+    "version": "1.1",
     "autoload": {
         "psr-4": {
             "Mikhail\\PizzaStore\\": "src/"
