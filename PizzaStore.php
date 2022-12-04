@@ -1,7 +1,7 @@
 <?php
-require_once 'vendor/autoload.php';
-use Mikhail\Repo\Pizza;
+namespace Mikhail\Repo;
 
+use Mikhail\Repo\Pizza;
 
 abstract class PizzaStore
 {
@@ -13,4 +13,3 @@ abstract class PizzaStore
 
     public abstract function createPizza(Pizza $type): Pizza;
 }
-
