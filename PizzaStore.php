@@ -1,7 +1,7 @@
 <?php
 namespace Mikhail\Repo;
-
 use Mikhail\Repo\Pizza;
+
 
 abstract class PizzaStore
 {
