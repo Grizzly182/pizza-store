@@ -12,6 +12,5 @@ abstract class PizzaStore
         $pizza->prepare()->cut();
     }
 
-    public abstract function createPizza(Pizza $pizzaType): Pizza;
+    public abstract function createPizza(string $pizzaType): Pizza;
 }
-$pizza = new Pizza('','',[]);
