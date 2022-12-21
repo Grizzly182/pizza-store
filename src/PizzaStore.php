@@ -6,7 +6,7 @@ use Mikhail\Repo\Pizza;
 
 abstract class PizzaStore
 {
-    public function orderPizza(Pizza $type): void
+    public function orderPizza(string $type): void
     {
         $pizza = $this->createPizza($type);
         $pizza->prepare()->cut();
