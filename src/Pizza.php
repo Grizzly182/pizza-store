@@ -3,8 +3,8 @@ namespace Mikhail\Repo;
 
 class Pizza
 {
-    private string $name;
-    private string $sauce;
+    private string $name = '';
+    private string $sauce = '';
 
     /**
      * @var array<string> $toppings
